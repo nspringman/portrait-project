@@ -4,27 +4,29 @@ $(document).ready(function(){
 
 
        var scroll_start = 1000;
-       var startchange = $('.map-container');
+       var startchange = $('#letter');
        var offset = startchange.offset();
+       var fadedIn = false;
        $(document).scroll(function() {
           scroll_start = $(this).scrollTop();
-          if(scroll_start > offset.top) {
+          if(scroll_start > offset.top && !fadedIn) {
               $('.navbar-custom').css('background-color', 'rgba(255,25,25,0.7)');
+              //fadedIn=true;
            } else {
-             console.log('here');
               $('.navbar-custom').css('background-color', 'transparent');
+              //fadedIn=false;
            }
        });
 
         var fadedIn = false;
         $(window).scroll(function() {
           // console.log("ScrollTop: " + $(window).scrollTop());
-          // console.log("Height: " +  $('.map-container').first().outerHeight());
-            if ($(window).scrollTop() > $('.letter-col').first().outerHeight() && !fadedIn) {
+          // console.log("Height: " +  $('.top-container').outerHeight());
+            if ($(window).scrollTop() > $('.top-container').outerHeight()+$('.jumpnav-container').outerHeight() && !fadedIn) {
               $('.focus-nav').first().animate({opacity: 1}, 'fast');
               $(".jump-top-container").css('display', 'block');
               fadedIn = true;
-            } else if ($(window).scrollTop() < $('.letter-col').first().outerHeight() && fadedIn) {
+            } else if ($(window).scrollTop() < $('.top-container').outerHeight()+$('.jumpnav-container').outerHeight() && fadedIn) {
               $('.focus-nav').first().animate({opacity: 0}, 'fast');
               $(".jump-top-container").css('display', 'none');
               fadedIn = false;
