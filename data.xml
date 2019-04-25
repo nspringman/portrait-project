@@ -1,0 +1,997 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Nathan Springman</Author>
+  <LastAuthor>Nathan Springman</LastAuthor>
+  <Created>2019-04-25T00:37:50Z</Created>
+  <LastSaved>2019-04-25T01:06:49Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16780</WindowHeight>
+  <WindowWidth>33380</WindowWidth>
+  <WindowTopX>220</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="94" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Name</Data></Cell>
+    <Cell><Data ss:Type="String">Race_Ethnicity</Data></Cell>
+    <Cell><Data ss:Type="String">Gender</Data></Cell>
+    <Cell><Data ss:Type="String">Donor__Y_N_</Data></Cell>
+    <Cell><Data ss:Type="String">Position_Title</Data></Cell>
+    <Cell><Data ss:Type="String">Artist</Data></Cell>
+    <Cell><Data ss:Type="String">Year_Installed_Dedicated</Data></Cell>
+    <Cell><Data ss:Type="String">Notes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Fred L. Kuhlmann</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor, Alumnus</Data></Cell>
+    <Cell><Data ss:Type="String">Gilbert Early, 1995</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Kuhlmann received his bachelor's and law degrees from the University by 1938. He was the Vice Chairman of the Board of Directors at Anheuser-Busch Companies, Inc. He was also the President of the St. Louis Cardinals from 1990-1991. Kuhlmann provided a gift to the building fund of Anheuser-Busch Hall. He also received the Distinguished Alumni Award from the University in 1987. &#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Janite Lee</Data></Cell>
+    <Cell><Data ss:Type="String">Asian</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Gilbert Early, 1997</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Immigrated from Korea. Lee won the lottery in 1993 and was given $18 million in winnings. She donated to Washington University School of Law, and has a reading room named in her honor.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Eugene A. and Adlyne Freund</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Tito Gay</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">The law library was named in their honor. .&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Whitney and Jane Freund Harris</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Tito Gay</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Whitney was a prosecutor at the Nuremberg Trials. The Whitney R. Harris World Law Institute is named in his honor. The Harris Award, an annual community service award given to a husband-wife pair, is named in their honor. The award was established in 2000 as part of a bequest made by Jane Freund Harris.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">W.I. Hadley Griffin</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">LLB '47, LLD '90</Data></Cell>
+    <Cell><Data ss:Type="String">Gilbert Early, 1996</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Alumnus of the School of Law, former Chair of the Board of Trustees.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">George and Carol Bauer</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor, Alumni</Data></Cell>
+    <Cell><Data ss:Type="String">Photo</Data></Cell>
+    <Cell><Data ss:Type="String">2012</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Arthur Holly Compton</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Professor, Former Chancellor</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">1966</Data></Cell>
+    <Cell><Data ss:Type="String">Compton Laboratory is named in his honor. In 1920, Compton joined the faculty at Washington University. He was a professor of physics and later served as the chair of the physics department. While at the University, he discovered an x-ray scattering effect (known as the &quot;Compton effect&quot;) which won him the 1927 Nobel Prize in Physics. He directed the Metallurgical Lab at the Manhattan Project from 1942-1945 at the University of Chicago.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Samuel Cupples</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">1905?</Data></Cell>
+    <Cell><Data ss:Type="String">Cupples was a business partner of Robert S. Brookings and a woodenware merchant in St. Louis. In 1900, Cupples turned over his company's assets to Washington University, providing $4 million for the construction of Cupples I, Cupples II, and Cupples Engineering Building (has since been torn down). He also served on the Board of Trustees from 1881-1912</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Guido Weiss</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Elinor Anheuser Professor of Mathematics</Data></Cell>
+    <Cell><Data ss:Type="String">Gyori Lagos</Data></Cell>
+    <Cell><Data ss:Type="String">1995</Data></Cell>
+    <Cell><Data ss:Type="String">Portrait bust. Weiss is a Hungarian-American professor of mathematics. He joined the WUSTL faculty in 1961 and served as the chair of the mathematics department from 1967-1970. He won the Chauvenet Prize in 1967 for his book Harmonic Analysis and became a fellow of the American Mathematical Society in 2013.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ronald and Karen Rettner</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor, Alumni</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Ronald is an alumnus of the University (BA '72). The Ronald and Karen Rettner Gallery &#45;- inside of Lab Sci &#45;- is named in their honor. The gallery honors the Los Alamos Six &#45;- a group of WUSTL chemistry professors who worked on the Manhattan Project.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Arthur Holly Compton</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Professor, Former Chancellor</Data></Cell>
+    <Cell><Data ss:Type="String">Photograph</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">In 1920, Compton joined the faculty at Washington University. He was a professor of physics and later served as the chair of the physics department. While at the University, &#160;he discovered an x-ray scattering effect (known as the &quot;Compton effect&quot;) which won him the 1927 Nobel Prize in Physics. He directed the Metallurgical Lab at the Manhattan Project from 1942-1945 at the University of Chicago. Compton eventually returned to WUSTL to serve as the Chancellor from 1945-1953. He held the title of Distinguished Service Professor of Natural Philosophy from 1945 until his death in 1962.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Roland G. Quest</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">M. Early (maybe)</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Provided funds, through the Roland Quest Memorial Trust, to restore the organ in Graham Chapel</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stanley Spector</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Professor</Data></Cell>
+    <Cell><Data ss:Type="String">V. Wang</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Spector was the founder and chair of the Department of Chinese and Japanese (now East Asian Languages and Cultures) from 1962-1973. He held numerous other positions including Chair of the Committee on Asian Studies and Director of International Studies.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Charles F. Knight</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Gordon Annie Shikles</Data></Cell>
+    <Cell><Data ss:Type="String">2001</Data></Cell>
+    <Cell><Data ss:Type="String">Along with his wife Joanne, Charles made many contributions to the Olin Business School and School of Medicine. Charles was the CEO at Emerson Electric Co. for 27 years. The Knights provided key support that helped construct the Siteman Cancer Center. In addition to the Knight Center being named in their honor, Charles also served as a longtime member of the Board of Trustees and the Olin National Council. He has won numerous awards for his service and philanthropy. The Knights have donated at least $15 million to the University.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">unsure</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">executive programs suite-unable to get access</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Robert and Barbara Frick</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor, Alumni</Data></Cell>
+    <Cell><Data ss:Type="String">Photo</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Robert is an alumnus of the University, earning his BS and MBA in 1960 ad 1962, respectively. The couple has donated at least $7 million to support the Olin Business School. Robert has served on the Board of Trustees and Olin Business School National Cabinet. He has also received numerous Alumni Awards from the University. Barbara is a former teacher who worked with Bob to launch a real estate developer operation in Sacramento. They were also partners in in K.E.S. Management Co., which worked to create quality housing for low- to moderate-income residents in the Bay Area.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Charles F. and Joanne Knight</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Photo</Data></Cell>
+    <Cell><Data ss:Type="String">May 2, 2014</Data></Cell>
+    <Cell><Data ss:Type="String">Along with his wife Joanne, Charles made many contributions to the Olin Business School and School of Medicine. Charles was the CEO at Emerson Electric Co. for 27 years. The Knights provided key support that helped construct the Siteman Cancer Center. In addition to the Knight Center being named in their honor, Charles also served as a longtime member of the Board of Trustees and the Olin National Council. He has won numerous awards for his service and philanthropy. The Knights have donated at least $15 million to the University.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Frank and Florence Busch</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Endowed professorship in the School of Art named in their honor.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Arthur Wahl</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Professor</Data></Cell>
+    <Cell><Data ss:Type="String">Gilbert Early</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Wahl was the Henry V. Farr Professor of Radiochemistry from 1952 until his death in 1983. He was a group leader in the chemistry division of the Manhattan Project from 1943-46. While there, he developed a plutonium purification method that is still used today. Wahl was also well-known for proving the existence of element 94 on the periodic table, and was part of a team at Berkeley that discovered plutonium.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Joseph Kennedy</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Professor</Data></Cell>
+    <Cell><Data ss:Type="String">Gilbert Early</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Served as chair of the Chemistry department at WUSTL. Kennedy was also the head of chemistry and metallurgy in the Manhattan Project. At age 26, he was awarded U.S. Army Medal of Merit.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Lindsay Helmholz</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Professor</Data></Cell>
+    <Cell><Data ss:Type="String">Gilbert Early</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Professor of Chemistry. His post-war research with graduate student Max Wolfsberg created Wolfsberg-Helmholz theory. Referred to as &quot;the gentleman-scientist.&quot; One of several WUSTL chemistry professors who worked on the Manhattan Project before joining the faculty.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">David Lipkin</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Professor</Data></Cell>
+    <Cell><Data ss:Type="String">Gilbert Early</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Lipkin was the Eliot Professor Emeritus of Chemistry. He served as the chair of the department of Chemistry from 1964-1971 before retiring in 1980. Before joining the faculty, Lipkin worked on the Manhattan Project in Los Alamos, New Mexico. He made important contributions to the atomic bomb at Nagasaki, creating a nickel-coated protective skin to ensure that it didn't corrode before reaching the Pacific. He was also the first to synthesize cyclic AMP.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Samuel Weissman</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Professor</Data></Cell>
+    <Cell><Data ss:Type="String">Gilbert Early</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Weissman was a professor of Chemistry at Washington University. Prior to joining the faculty, he worked on the Manhattan Project in Los Alamos, New Mexico. After arriving at &#160;WUSTL in 1946, he pioneered the usage of electron spin resonance in chemistry. Weissman was elected a fellow of the American Academy of Arts and Sciences in 1966 and was elected to the National Academy of Sciences in 1966.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Herbert Potratz</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Professor</Data></Cell>
+    <Cell><Data ss:Type="String">Gilbert Early</Data></Cell>
+    <Cell><Data ss:Type="String">2005</Data></Cell>
+    <Cell><Data ss:Type="String">Professor of Chemistry. Potratz joined the Manhattan Project as a research associate in 1942. He eventually worked his way up to section chief of the Chemistry Division. He later joined the chemistry faculty at WUSTL.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Patty Jo Watson</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Distinguished University Professor Emerita</Data></Cell>
+    <Cell><Data ss:Type="String">Gilbert Early, 2003</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Watson is an archaeologist in the Department of Anthropology. She received her PhD from the University of Chicago and devoted her career to studying the archaeology of the Ancient Near East and North America. She was elected to the National Academy of Sciences in 1988 and received numerous other teaching awards. Watson served as the chair of the Anthropology department twice. She retired in 2004.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">John Morris</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Professor of English Literature, Poet</Data></Cell>
+    <Cell><Data ss:Type="String">Patrick Schuchard</Data></Cell>
+    <Cell><Data ss:Type="String">1997</Data></Cell>
+    <Cell><Data ss:Type="String">Much of his work was published posthumously, was a member of the distinguished poets and writers at the University from the 60's-90's</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">John M. Olin</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y, $1mil in 1956</Data></Cell>
+    <Cell><Data ss:Type="String">Former member of the Board of Trustees</Data></Cell>
+    <Cell><Data ss:Type="String">William F. Draper</Data></Cell>
+    <Cell><Data ss:Type="String">1967</Data></Cell>
+    <Cell><Data ss:Type="String">$1 million donation used for construction of Olin Library of which he is the namesake, former President of Olin Industries and chairman of Olin Mathieson Chemical Corporation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Jarvis Thurston</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Professor of English, Former chair of the Department of English</Data></Cell>
+    <Cell><Data ss:Type="String">Marion Miller</Data></Cell>
+    <Cell><Data ss:Type="String">1993</Data></Cell>
+    <Cell><Data ss:Type="String">Largely responsible for creating the Writing Program at the University, co-founded Perspectives magazine with poet (and wife) Mona Van Duyn, helped discover and attract top-tier writing talent to the University&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mona Van Duyn</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Lecturer, Poet, Writer</Data></Cell>
+    <Cell><Data ss:Type="String">Marion Miller</Data></Cell>
+    <Cell><Data ss:Type="String">1993</Data></Cell>
+    <Cell><Data ss:Type="String">First female U.S. Poet Laureate (1992-93), National Book Award Winner (1971), Pulitzer Prize Winner (1991), Co-founded Perspectives magazine with Professor of English Jarvis Thurston (who was also her husband). Van Duyn and Thurston were largely responsible for attracting top-tier writing talent to the University over the course of their tenure&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Howard Nemerov</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Professor, Poet, Writer</Data></Cell>
+    <Cell><Data ss:Type="String">Marion Miller</Data></Cell>
+    <Cell><Data ss:Type="String">1991</Data></Cell>
+    <Cell><Data ss:Type="String">Two-time U.S. Poet Laureate, winner of the 1968 Guggenheim Fellowship, 1978 National Book Award, and 1978 Pulitzer Prize in Poetry. Namesake of Nemerov Scholars and Nemerov House</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">James Merrill</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Poet, Visiting Hirst Professor in the Department of English (1971, 1985)</Data></Cell>
+    <Cell><Data ss:Type="String">Guitou Knoop</Data></Cell>
+    <Cell><Data ss:Type="String">1954</Data></Cell>
+    <Cell><Data ss:Type="String">Bust, Pulitzer Prize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Gerald Early</Data></Cell>
+    <Cell><Data ss:Type="String">Black</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Merle Kling Professor of Modern Letters, Chair of the Department of African and African-American Studies, Award-winning Essayist and Cultural Critic&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Jamie Adams</Data></Cell>
+    <Cell><Data ss:Type="String">2007</Data></Cell>
+    <Cell><Data ss:Type="String">Star on the St. Louis Walk of Fame&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stanley Elkin</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Professor of English and Writing, Former Merle Kling Professor of Modern Letters</Data></Cell>
+    <Cell><Data ss:Type="String">Patrick Schuchard</Data></Cell>
+    <Cell><Data ss:Type="String">1991</Data></Cell>
+    <Cell><Data ss:Type="String">Two-time winner of the National Book Critics Circle Award (1992, 1995), star on the St. Louis Walk of Fame</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ralph Morrow (photo)</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Professor of History, Former University administrator</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">Former Chair of the History Department, Dean of the Graduate School, Provost, and University Historian. Gift was given in his memory by family. Study room named for him in Olin Library.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">William Gass</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">David May Distinguished University Professor Emeritus, writer</Data></Cell>
+    <Cell><Data ss:Type="String">Marion Miller</Data></Cell>
+    <Cell><Data ss:Type="String">1995</Data></Cell>
+    <Cell><Data ss:Type="String">Founded the Center for Humanities in 1990. Three-time National Book Critics Circle Award winner in 1978, 1996, and 2003. Coined the term &quot;metafiction&quot; in his 1970 essay &quot;Philosophy and the Form of Fiction.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Donald Finkel</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Poet-in-residence</Data></Cell>
+    <Cell><Data ss:Type="String">Barry Schactman</Data></Cell>
+    <Cell><Data ss:Type="String">1998</Data></Cell>
+    <Cell><Data ss:Type="String">Helped form the Writing Program along with wife Constance Urdang</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">J. H. Hexter</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Professor of History (1957-1964), returned in 1990</Data></Cell>
+    <Cell><Data ss:Type="String">Anne Green</Data></Cell>
+    <Cell><Data ss:Type="String">1990</Data></Cell>
+    <Cell><Data ss:Type="String">Founded the Center for the History of Freedom in 1990, became the John M. Olin Distinguished University Professor of the History of Freedom. Endowed Professorship is named for him &#45;- currently held by Professor Jean Allman.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Karl D. Umrath</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Dorothy Quest</Data></Cell>
+    <Cell><Data ss:Type="String">1959</Data></Cell>
+    <Cell><Data ss:Type="String">Umrath and his wife collectively gave $1.5 million to the University, the former dorm Rubelmann was named in honor of his sister, Maurie Rubelmann.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Helen D. Umrath</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Dorothy Quest</Data></Cell>
+    <Cell><Data ss:Type="String">1959</Data></Cell>
+    <Cell><Data ss:Type="String">Umrath (nèe Rubelmann) and her husband, Karl Umrath, collectively donated $1.5 million to the University over their lifetime. She is the namesake of Umrath House, and her sister &#45;- Maurie Rubelmann &#45;- is the namesake of former Rubelmann House.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Edna Fischel Gellhorn</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Activist</Data></Cell>
+    <Cell><Data ss:Type="String">J. Scott MacNutt</Data></Cell>
+    <Cell><Data ss:Type="String">1940</Data></Cell>
+    <Cell><Data ss:Type="String">Founder and vice-president of the National League of Women Voters. Active in the women's suffrage movement and close with Eleanor Roosevelt. Fought to enact the Missouri minimum wage law and was an advocate for fair labor &amp; employment conditions, Served on numerous committees and associations in St. Louis that helped support these causes. Her friends donated money for an endowed professorship named in her honor.&#160;Married to Dr. George Gellhorn.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scott Rudolph</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Member of the Board of Trustees</Data></Cell>
+    <Cell><Data ss:Type="String">Gilbert Early</Data></Cell>
+    <Cell><Data ss:Type="String">2012</Data></Cell>
+    <Cell><Data ss:Type="String">Rudolph and his wife, Pyong, are longtime supporters of the University and are the parents of two WU alumni. Has a professorship named in his honor, and is the namesake of Rudolph Hall. Sits on the Parents Council, National Entrepreneur Council, and Global Engagement Committee.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">George E Kassabaum</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Alumnus&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">H R Duhme</Data></Cell>
+    <Cell><Data ss:Type="String">?</Data></Cell>
+    <Cell><Data ss:Type="String">Commemorated in the form of a portrait bust.&#160;President of the American Institute of Architects and the William Greenleaf Eliot society, former WU trustee, founder of prominent architectural firm Hellmuth Obata &amp; Kassabaum, Inc (co-founders were also WU alumni)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Constantine (dinos) e Michaelides</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Professor Emeritus, Former Dean of the School of Architecture</Data></Cell>
+    <Cell><Data ss:Type="String">Gilbert Early</Data></Cell>
+    <Cell><Data ss:Type="String">1993</Data></Cell>
+    <Cell><Data ss:Type="String">In 1983, elected a Fellow of the American Institute of Architects &#45;- one of the highest honors that can be bestowed upon an architect&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Norman G Moore</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Alumnus</Data></Cell>
+    <Cell><Data ss:Type="String">Gilbert Early</Data></Cell>
+    <Cell><Data ss:Type="String">1995</Data></Cell>
+    <Cell><Data ss:Type="String">Received a bachelor's degree in architecture. Recipient of the Distinguished Alumni Award in 1993 and Robert S. Brookings Award in 1999.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Earl E. and Myrtle E. Walker</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">W Patrick Shuchard</Data></Cell>
+    <Cell><Data ss:Type="String">2006</Data></Cell>
+    <Cell><Data ss:Type="String">CEO (Earl) and Vice President (Myrtle) of Carr Lane Manufacturing Co, namesakes of Walker Hall, established an endowed professorship in mechanical engineering in 1998, won the Robert S. Brookings Award in 1999, established the Walker Scholarship in the School of Art in 2001. In 2002, Earl Walker received an honorary Doctorate of Science degree.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mildred Lane Kemper</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Ying-He Liu</Data></Cell>
+    <Cell><Data ss:Type="String">2006</Data></Cell>
+    <Cell><Data ss:Type="String">Kemper's family donated to name the art museum in her honor. Kemper was a longtime patron of the arts and resident of Kansas City, Missouri. She was also an alumnae and former trustee of Wellesley College.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sam and Marilyn Fox</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Ying-He Liu</Data></Cell>
+    <Cell><Data ss:Type="String">2006</Data></Cell>
+    <Cell><Data ss:Type="String">The Fox's have given over $22 million to the University. Sam Fox is an alumnus (BU '51) and lifetime and lifetime member of the board of trustees. He is the chairman and CEO of Harbour Group ltd. He is also the Chairman of the St. Louis area Council Boy Scouts of America, Chairman of the United Way of Greater St. Louis campaign, and President of the board of commissioners of the St. Louis Art Museum. Marilyn Fox was the first female President of the Jewish Community Center of St. Louis. She has won numerous awards for her philanthropy and sits on the board of several organizations in St. Louis. Both received an honorary doctorate of public service from SLU in 2000. Namesakes of the School of Art and Architecture.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Uncas A Whitaker</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Donne Lee</Data></Cell>
+    <Cell><Data ss:Type="String">2003</Data></Cell>
+    <Cell><Data ss:Type="String">CEO of AMP, Inc. and namesake of the Whitaker foundation. Upon his death, the Whitaker Foundation provided two grants to the University which helped construct Whitaker Hall and attract top-tier faculty and graduate talent.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Frank C.P. Yin</Data></Cell>
+    <Cell><Data ss:Type="String">Asian</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Stephen F. and Camilla T. Brauer Distinguished Professor of Biomedical Engineering, department chair from 1997-2013</Data></Cell>
+    <Cell><Data ss:Type="String">Katherine Meredith</Data></Cell>
+    <Cell><Data ss:Type="String">2013</Data></Cell>
+    <Cell><Data ss:Type="String">Credited with building and strengthening the department of biomedical engineering. Internationally recognized for his contributions to biomechanics and cardiovascular research</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Preston M Green</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Alumnus, Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Gilbert Early</Data></Cell>
+    <Cell><Data ss:Type="String">2011</Data></Cell>
+    <Cell><Data ss:Type="String">Received his bachelor's in electrical engineering in 1936. Serves as the President and Chairman of southwest steel supply co. Namesake of Green Hall</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stephen F. and Camilla T. Brauer</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Gilbert Early</Data></Cell>
+    <Cell><Data ss:Type="String">2010</Data></Cell>
+    <Cell><Data ss:Type="String">Stephen is the former chair of the Board of Trustees. He is a member of the School of Engineering and Applied Science National Council, president of Hunter Engineering Company, former United States Ambassador to Belgium (2001-2003), member of St. Louis civic progress, director of Ameren Corporation, past president of the board of the Missouri botanical garden (him). Camilla is the Vice Chair of the United Way of Greater St. Louis, program chair of the WGE society, founding member of Danforth Circle committee, and was the top volunteer fundraiser in US of fundraising executives in 1996. Both are namesakes of Brauer Hall.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Lee Hunter</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Honorary alumnus, trustee emeritus, served on washu board of trustees from 1982-86, founder of Hunter Engineering company, posthumously imductef into automotive hall of fame in 1992</Data></Cell>
+    <Cell><Data ss:Type="String">Gilbert early</Data></Cell>
+    <Cell><Data ss:Type="String">?</Data></Cell>
+    <Cell><Data ss:Type="String">Part of Brauer gift was in his honor</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rick and Betty Ryckman</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">A.P. Greensfelder Professor of Engineering&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Mills</Data></Cell>
+    <Cell><Data ss:Type="String">1998</Data></Cell>
+    <Cell><Data ss:Type="String">Commemorated in a photograph.&#160;Rick helped build a top program in environmental engineering at the university in the mid 1950s.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Thomas and Jennifer Hillman</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor, Alumni</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">2015</Data></Cell>
+    <Cell><Data ss:Type="String">Commemorated in a photograph. Namesakes of Hillman Hall. Both Thomas (BA '78) and Jennifer (BFA '79) are alumni of the University. Thomas is the former founder and managing partner of FTL Capital Partners. Jennifer is a former owner of a sales promotion and advertising agency. Thomas is a member of the board of trustees while Jennifer is on the University's National Council for Undergraduate Experience.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alvin Goldfarb</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">1998?</Data></Cell>
+    <Cell><Data ss:Type="String">Goldfarb and his wife (Jeannette Rudman Goldfarb - Brown School Graduate) were longtime supporters of business and humanities at the University. Founded the Scholars in Business Program at the Olin Business School. Provided a generous gift that helped construct Goldfarb Hall (namesake). The St. Louis Hillel Center was also named in their honor.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">George Warren Brown</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor, Former member of the Board of Directors</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">1937</Data></Cell>
+    <Cell><Data ss:Type="String">Established the first successful wholesale shoe manufacturing company in STL, brought $500k in assets to the University to fund the School of Social Work</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bettie Bofinger Brown</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">1937</Data></Cell>
+    <Cell><Data ss:Type="String">Established the School of Social Work in memoriam to her husband, George Warren Brown</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Robert S. Brookings</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Served as the President of the Board of Trustees for 33 years</Data></Cell>
+    <Cell><Data ss:Type="String">Richard Emile Miller</Data></Cell>
+    <Cell><Data ss:Type="String">1905 or 1928</Data></Cell>
+    <Cell><Data ss:Type="String">Donated $200k to WU to construct an administrative building (Brookings Hall). Founder of the Brookings Institute.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">William Greenleaf Eliot, Sr.</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Former Chancellor of WU</Data></Cell>
+    <Cell><Data ss:Type="String">James Reid Lambdin</Data></Cell>
+    <Cell><Data ss:Type="String">1969</Data></Cell>
+    <Cell><Data ss:Type="String">Painted in 1853, gifted in memory of William Eliot Smith from his family in 1969. Co-founded Washington University (then known as Eliot Seminary) in 1853 with Wayman Crow. Organized the first fundraising campaign and built the University's endowment. Served as the first President in 1854 and was named the third Chancellor in 1871.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bob and Julie Skandalaris</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Commemorated in a photograph. Parents of an alumnae. Established the Skandalaris Entrepreneurship Program in 2001 and the Skandalaris Center for Entrepreneurial Studies in 2003. In 2008, established the Skandalaris Entrepreneurial Summer Internship Program. Bob is the chairman and CEO of Quantum Ventures of Michigan, LLC. Julie has served in leadership roles at the Detroit Country Day School and is engaged in philanthropic initiatives.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Andrew H. and Ann Rubenstein Tisch</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor, Alumni</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Photograph. Ann is an alumnae (BA '76) of the University and a longtime member of the Board of Trustees. Former broadcast journalist for several outlets, including NBC Network News. She is the founder and president of the Young Women's Leadership Network, which creates and manages all-girls inner-city public schools. She is also the founder of the CollegeBound Initiative. Andrew is co-chairman of the board and chairman of the executive committee of Loews Corporation. He is a Cornell graduate and has served on the board for its medical school, business school, and college.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">James E. McLeod</Data></Cell>
+    <Cell><Data ss:Type="String">Black</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Professor, University Administrator</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Dean McLeod arrived at the University as an assistant professor of German. He held numerous administrative positions including: assistant dean of the Graduate School (1974-77), assistant to Chancellor Danforth (1977-1987), director of the program (now department) of African and African-American Studies (1987-1992), vice chancellor for students and dean of the College of Arts and Sciences (1992-2011). McLeod also served as the dean of the John B. Ervin Scholars Program. McLeod Way on the South 40 and the McLeod Conference Room in Cupples II is also named in his honor. McLeod won numerous awards for his service.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Isadore Edward (I.E.) Millstone</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor, Life Trustee, Alumnus</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Wall relief. Millstone is a St. Louis native who graduated from the University in 1927 with a degree in engineering. He founded Millstone Construction, Inc., and was the president of K &amp; M Investors. Millstone is a longtime donor to the University. The Millstone Pool in the Athletic Complex is also named in his honor, as is Millstone Lounge in the DUC.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">William and Elizabeth Gray Danforth</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Chancellor Emeritus</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">2008</Data></Cell>
+    <Cell><Data ss:Type="String">The Danforth Foundation made a gift in their honor to build the Danforth University Center. William initially joined the University as a professor at the Medical School. Danforth also served as vice chancellor under Chancellor Thomas Eliot before becoming 13th Chancellor in 1971. He was named Chancellor Emeritus in 1999.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">John and Stephanie Brooks Dains</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor, Alumni</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Photograph. Both John (BSBA '68) and Stephanie (AB '69) are alumni of the University. They endowed the Dains Scholarship in the Olin School in 2010, and established the Dains Sr. Scholarship to assist students from Arkansas. The couple has donated upwards of $5 million to the University. The dining hall inside of the DUC is named in their honor.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">John E. Simon</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">1986?</Data></Cell>
+    <Cell><Data ss:Type="String">He is the namesake of Simon Hall. Simon served as the General Partner of Simon and Co. Investment Company. Simon established an endowed professorships and has donated funds to other areas of the University.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Al Kopolow</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Namesake of the Kopolow Business Library.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">John M. Olin</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor, Fmr. Trustee, Western Cartridge Company, Chairman of Olin Corporation</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">1988</Data></Cell>
+    <Cell><Data ss:Type="String">$1 million donation used for construction of Olin Library of which he is the namesake. Olin is also the namesake of the Business School. He is the former President of Olin Industries and chairman of Olin Mathieson Chemical Corporation.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Harry and Susan Seigle</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">2008</Data></Cell>
+    <Cell><Data ss:Type="String">This building is the first academic building to be named after an alumnus living outside of St. Louis. Harry Seigle received his bachelor's degree in in 1968. The Seigles made a $10 million commitment to construct the building. Harry has served in numerous positions, including as a trustee. Numerous other spaces and funds on campus are also named for the Seigles. He founded several lumber businesses and material supplier companies.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Gary M. Sumers</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor, Alumnus</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">2016</Data></Cell>
+    <Cell><Data ss:Type="String">Photograph. Sumers received his bachelor's degree from the University in 1975 Phi Beta Kappa. Sumers is COO and Senior Managing Director of The Blackstone Group. He is also a member of the Board of Trustees and has established numerous in scholarships in memory of his mother, Joan.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Art and Marge McWilliams</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donors, Alumni</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Photograph. Both are St. Louis natives. Art received his BSBA degree from the University. They are longtime supporters of WU athletics and are scholarship sponsors at the Olin Business School. Art serves on the University's W Club Executive Committee.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Paul Tietjens</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Pianist and Composer known for writing the music for the original stage production of The Wizard of Oz in 1902</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">1975</Data></Cell>
+    <Cell><Data ss:Type="String">Otto Tietjens included a bequest for this building in his will. The Tietjens Memorial Music Studio was built in 1974</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Avis Blewett</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Church organist, organ instructor at Vassar College, and opened her studio in St. Louis</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">1946?</Data></Cell>
+    <Cell><Data ss:Type="String">Gift allowed WU to repurchase the fmr. Chancellor's home and turn it into a building to house the Music Department. Also donated the church organ inside of Graham Chapel.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Benjamin Blewett?</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor, Alumnus, Fmr. Superintendent of STL Public Schools</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">1946?</Data></Cell>
+    <Cell><Data ss:Type="String">Donated part of his estate to WU after his death. Blewett received his bachelor's and master's degrees from the University in 1876 and 1878, respectively. He was a teacher and eventually served as the Superintendent of St. Louis Public Schools. He also donated $50,000 to establish the Jessie Parsons Blewett Fund to support teacher education.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Roger Weston</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor, Alumnus</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Weston is an alumnus of the University, graduating with his MBA in 1967. He served as the founder and chairman of GreatBanc, Inc. His support allowed the Weston Career Center to be established in the 1980s. He is a member of Olin's National Council.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">John M. Olin</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Olin School of Business is named in his honor. Olin served on the Board of Trustees for nearly 40 years, serving until his death in 1982. He personally provided nearly $6 million in funding, and the Olin Foundation has given at least $18 million. The Olin Library is also named in his honor.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Patrick McGinnis</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor, Alumnus</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Former CEO of Nestle Purina Petcare for the Americas. Earned his MBA from Washington University in 1972. Endowed a professorship in marketing in 2002. Former board member. Won two distinguished alumni awards in 1993 and 1999, respectively.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Julian Edison</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Chairman of his family's company &#45;&#45;- Edison Shoe Company. Edison helped found the Associates of St. Louis Libraries. Avid reader and collector of books. The Olin Library Special Collections is named in his honor.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Jack and Debbie Thomas</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">2018</Data></Cell>
+    <Cell><Data ss:Type="String">Photograph. The Thomas Gallery, featuring museum-quality exhibit spaces, in Olin Library is named in their honor. Endowed a lecture series to promote the discussion of library and technology-related topic. Jack is a member of the Board of Trustees and is the chairman of WU Libraries' National Council.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Risa Zwerling Wrighton</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Woman</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Alumnae, Wife of Chancellor Wrighton</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">2018</Data></Cell>
+    <Cell><Data ss:Type="String">Gift was made in her honor to name Risa's Landing &#45;- a third floor reading room &#45;- in her name. Wrighton earned her master's in business administration from the University in 1989 and engages actively in the University community.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Maxine Clark and Bob Fox</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donors</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">The policy institute and forum in Hillman Hall at the Brown School are named in their honor, following a $7.5 million donation They also provided an additional $540,000 to fund a cohort of Civic Scholars.. Bob and Maxine are co-founding donors of Teach For America-St. Louis and KIPP charter schools in the St. Louis area. Clark is the founder of Build-A-Bear Workshops and holds several positions in University leadership, including serving as a trustee. Fox is the owner and chief executive of NewSpace, Inc. and founded Casa de Salud.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Peggy Newman</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Woman</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Associated with a Newman Foundation gift that named three spaces in the DUC (Edison Courtyard, Ibby's, Orchid Room)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Lucy and Stanley Lopata</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor, Alumni</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">1981</Data></Cell>
+    <Cell><Data ss:Type="String">Stanley graduated from Washington University in 1935. Both Lucy and Stanley co-founded Carboline Corporation. Several spaces on the Danforth Campus are named in their honor, including Lopata Hall, Lopata Plaze, and Lopata Courtyard in Simon Hall. The Lopatas were longtime supporters of the School of Engineering.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Lucy and Stanley Lopata</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor, Alumni</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">2001</Data></Cell>
+    <Cell><Data ss:Type="String">Stanley graduated from Washington University in 1935. Both Lucy and Stanley co-founded Carboline Corporation. Several spaces on the Danforth Campus are named in their honor, including Lopata Hall, Lopata Plaze, and Lopata Courtyard in Simon Hall.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">James S. McDonnell</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">1993</Data></Cell>
+    <Cell><Data ss:Type="String">Served in the U.S. Army Air Corps Reserve and was one of the first men to create the packed-parachute jumps. Founded his own aircraft company in St. Louis and remained a world leader in the production of commercial and military aircrafts. McDonnell established a professorship in 1964 and the McDonnell Center for the Space Sciences in 1975. McDonnell Hall was dedicated in his honor in 1993.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Nathan Dardick</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Alumnus</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">2006</Data></Cell>
+    <Cell><Data ss:Type="String">Dardick graduated from the University in 1971 with a bachelor's degree. As a student, he was an RA and dorm president for Eliot Hall. He served as a member of the executive committee of the University's Parent Council. Dardick was named in his honor.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">John C. Danforth</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Former Senator and Ambassador</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Danforth Foundation provided a gift to the University in 2009 to establish the Danforth Center for Religion and Politics named in John's honor. John is a former Senator from Missouri and former U.S. Ambassador to the United Nations. He is a member of the center's National Advisory Board and has written several books on religion and politics.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Milda Balch</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Alumnae</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sayde G. Edison</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">1973</Data></Cell>
+    <Cell><Data ss:Type="String">Edison was the primary donor for Edison Theatre's construction. She made the gift in honor of her husband and son, Samuel B. and Charles B. Edison.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Samuel B. Edison</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Namesake of Edison Theatre</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">1973</Data></Cell>
+    <Cell><Data ss:Type="String">Wife, Sayde Edison, made a gift in honor of him and their son, Charles, that allowed the University to construct Edison Theatre. Samuel founded the Edison Shoe Company with his brothers in 1922. The company went public in 1929 and moved to St. Louis.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Angel and Paul Harvey</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male and Female (couple)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Donor, Alumni</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Both Angela and Paul are the namesakes of the Harvey Media Center. Angela is an alumnae of the University. She received a bachelor's and master's degree in English, along with an honorary doctor of humanities degree in 1998. Paul is known for his successful career in broadcasting. He hosted &quot;News and Comment,&quot; a successful show on ABC Radio Network. Paul is a five-time Marconi Radio Award winner, and was inducted into the National Radio Hall of Fame in 1990. Paul was awarded the Presidential Medal of Freedom in 2005, the nation's highest civilian honor.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">William McMillan</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+    <Cell><Data ss:Type="String">Donor&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">McMillan Hall was named in honor of William by his wife Eliza P. McMillan. He established several businesses, including Missouri Car &amp; Foundry Company. William and his wife donated $100,000 to the Mary Institute, a school formerly run by Washington University.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Betty McCloskey Compton</Data></Cell>
+    <Cell><Data ss:Type="String">White</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Wife of former Chancellor Arthur Holly Compton</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String">Unsure</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>C1</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

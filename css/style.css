@@ -1,0 +1,182 @@
+*{
+  font-family: 'Noto Serif', serif;
+}
+
+.focus-nav {
+    position: fixed;
+    z-index: 1000;
+    height: 45px;
+    width: 100vw;
+    background-color: rgba(0,0,0,.7);
+    opacity: 0;
+}
+
+.tempnav-stud {
+    top: 45%;
+    transform: translateY(-50%);
+    left: 20px;
+    position: absolute;
+}
+
+.tempnav-title {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+}
+
+.tempnav-title > h1 {
+    font-family: 'Noto Serif', serif;
+    color: white;
+    font-weight: 900;
+    font-size: 1.7em;
+    margin: 0;
+}
+
+.topnav img{
+  height: 25px;
+}
+
+.logo-overlay{
+  position: absolute;
+  z-index: 2;
+}
+
+#background-img-overlay{
+  position: absolute;
+  width: 100%;
+  min-height: 80vh;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+body{
+  background-color: #f8f8f8;
+}
+
+#header-container{
+  min-height: 80vh;
+  background: url("../img/brookings.JPG") no-repeat center;
+  background-size: cover;
+  text-shadow: 2px 2px 8px #222;
+}
+
+#header-container h1{
+  z-index: 2;
+  font-family: 'Noto Serif', sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+#head-title{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 2px;
+  font-weight: 800;
+}
+
+.jumpnav{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 40px;
+
+}
+
+.jumpnav a{
+  color: rgb(211,28,19);
+  font-size: 25px;
+}
+
+.map-container{
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+#map{
+  width: 80%;
+  height: 650px;
+  border: none;
+}
+
+.letter-col h2, .article-col h2{
+  padding-left: 2px;
+  margin-bottom: 0px;
+  font-family: 'Noto Serif', serif;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.article-col{
+}
+
+.letter-col p, .article-col p{
+  font-family: "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+.divider-1{
+  width: 100%;
+  border: 1px solid rgb(211,28,19);
+  margin-bottom: 15px;
+}
+
+.intro-message{
+  padding-top: 32vh;
+  color: #fff;
+  font-family: 'Noto Serif', serif;
+  font-weight: 900;
+  font-size: 3em;
+  text-align: center;
+}
+
+.dataContainer{
+  height: 70vh;
+  overflow: scroll;
+}
+
+.dataTable{
+  /* width:100%; */
+  overflow: auto;
+  margin: 0;
+}
+thead th {
+  position: sticky;
+  top: 0;
+  background-color: rgb(211,28,19);
+  color: white;
+  font-size: 18px;
+}
+.dataTable table, .dataTable th, .dataTable td{
+  /* border: 1px solid #ccc; */
+}
+.dataTable th{
+  padding: 10px;
+}
+.dataTable tbody{
+  vertical-align: top;
+}
+.dataTable td{
+  /* width: 100px !important; */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+@media (min-width: 992px){
+.col-lg-12 {
+  max-width: 100%
+}
+}
+
+@media (max-width: 950px){
+  .tempnav-title{
+    display: none;
+  }
+}
+
+footer{
+  padding-top: 40px;
+}
