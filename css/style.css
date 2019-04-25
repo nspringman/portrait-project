@@ -2,6 +2,28 @@
   font-family: 'Noto Serif', serif;
 }
 
+.jump-top-container{
+  display: none;
+  width: 60px;
+  height: 40px;
+  position: fixed;
+  bottom: 30px;
+  right: 19%;
+  z-index: 10;
+  color: #fff;
+  background-color: rgb(211,28,19);
+  border-radius: 8px;
+  font-size: 19px;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 3px;
+  border: 1px solid #ccc;
+}
+
+.top-container{
+  overflow: hidden;
+}
+
 .focus-nav {
     position: fixed;
     z-index: 1000;
@@ -44,12 +66,12 @@
 
 #background-img-overlay{
   position: absolute;
-  width: 100%;
+  width: 100vw;
   min-height: 80vh;
   top: 0;
   left: 0;
   z-index: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 body{
@@ -58,7 +80,7 @@ body{
 
 #header-container{
   min-height: 80vh;
-  background: url("../img/brookings.JPG") no-repeat center;
+  background: url("../img/background.png") no-repeat center top;
   background-size: cover;
   text-shadow: 2px 2px 8px #222;
 }
@@ -77,14 +99,26 @@ body{
   font-weight: 800;
 }
 
-.jumpnav{
+.jumpnav-small{
+  display: none;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: rgb(211,28,19);
+}
+
+.jumpnav-small a{
+  color: rgb(211,28,19);
+}
+
+.jumpnav-large{
   text-align: center;
   font-size: 25px;
   margin-bottom: 40px;
 
 }
 
-.jumpnav a{
+.jumpnav-large a{
   color: rgb(211,28,19);
   font-size: 25px;
 }
@@ -101,7 +135,7 @@ body{
   border: none;
 }
 
-.letter-col h2, .article-col h2{
+h2{
   padding-left: 2px;
   margin-bottom: 0px;
   font-family: 'Noto Serif', serif;
@@ -165,16 +199,27 @@ thead th {
 }
 tr:nth-child(even) {background-color: #f2f2f2;}
 
-@media (min-width: 992px){
-.col-lg-12 {
-  max-width: 100%
-}
+#contact{
+  padding-top: 30px;
 }
 
 @media (max-width: 950px){
-  .tempnav-title{
-    display: none;
-  }
+.tempnav-title{
+  display: none;
+}
+
+#header-container h1{
+  font-size: 40px;
+}
+
+.jumpnav-large{
+  display: none;
+}
+
+.jumpnav-small{
+  display: block;
+}
+
 }
 
 footer{

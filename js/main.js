@@ -10,10 +10,9 @@ $(document).ready(function(){
           scroll_start = $(this).scrollTop();
           if(scroll_start > offset.top) {
               $('.navbar-custom').css('background-color', 'rgba(255,25,25,0.7)');
-              // $('.bg-red').css('background-color', 'transparent');
            } else {
+             console.log('here');
               $('.navbar-custom').css('background-color', 'transparent');
-              // $('.bg-red').css('background-color', 'rgba(255,25,25,0.5)');
            }
        });
 
@@ -23,28 +22,55 @@ $(document).ready(function(){
           // console.log("Height: " +  $('.map-container').first().outerHeight());
             if ($(window).scrollTop() > $('.letter-col').first().outerHeight() && !fadedIn) {
               $('.focus-nav').first().animate({opacity: 1}, 'fast');
+              $(".jump-top-container").css('display', 'block');
               fadedIn = true;
             } else if ($(window).scrollTop() < $('.letter-col').first().outerHeight() && fadedIn) {
               $('.focus-nav').first().animate({opacity: 0}, 'fast');
+              $(".jump-top-container").css('display', 'none');
               fadedIn = false;
             }
         });
-    });
+});
+
  $("#article-link").click(function(event) {
     event.preventDefault();
      $('html, body').animate({
-         scrollTop: $("#article").offset().top
+         scrollTop: $("#article").offset().top - 45
      }, 700);
  });
  $("#letter-link").click(function(event) {
       event.preventDefault();
      $('html, body').animate({
-         scrollTop: $("#letter").offset().top
+         scrollTop: $("#letter").offset().top - 30
      }, 400);
  });
  $("#data-link").click(function(event) {
       event.preventDefault();
      $('html, body').animate({
-         scrollTop: $("#map-target").offset().top
+         scrollTop: $("#map-target").offset().top - 55
+     }, 400);
+ });
+ $("#article-link-2").click(function(event) {
+     event.preventDefault();
+      $('html, body').animate({
+          scrollTop: $("#article").offset().top - 45
+      }, 700);
+  });
+  $("#letter-link-2").click(function(event) {
+       event.preventDefault();
+      $('html, body').animate({
+          scrollTop: $("#letter").offset().top - 30
+      }, 400);
+  });
+  $("#data-link-2").click(function(event) {
+       event.preventDefault();
+      $('html, body').animate({
+          scrollTop: $("#map-target").offset().top - 45
+      }, 400);
+  });
+ $("#jump-top").click(function(event) {
+      event.preventDefault();
+     $('html, body').animate({
+         scrollTop: $("#head-title").offset().top - 55
      }, 400);
  });
